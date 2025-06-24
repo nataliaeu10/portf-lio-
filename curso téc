@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Curso Técnico</title>
+  <style>
+    body {
+      background-color: #ffaec0;
+      margin: 0;
+      font-family: 'Georgia', serif;
+      color: #000;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 2.5em;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      margin-top: 40px;
+      padding: 0 40px;
+      flex-wrap: wrap;
+    }
+
+    .image-box {
+      background-color: #ff3c3c;
+      padding: 10px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      max-width: 300px;
+    }
+
+    .image-box img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .text-box {
+      max-width: 400px;
+      font-size: 1.2em;
+      text-align: justify;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-box {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>curso técnico</h1>
+  <div class="content">
+    <div class="image-box">
+      <img src="curso-tecnico.jpg" alt="Curso Técnico">
+    </div>
+    <div class="text-box">
+      <p>
+        Sou jovem do Instituto Reciclar e atualmente estou em meu segundo ano, onde estou realizando o curso técnico de Design da Comunicação.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
