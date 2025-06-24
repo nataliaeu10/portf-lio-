@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil Afro</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-container {
+      position: relative;
+      width: 300px;
+      height: 400px;
+    }
+
+    .hair {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .circle {
+      width: 80px;
+      height: 80px;
+      background-color: #8b0000;
+      border-radius: 50%;
+    }
+
+    .face {
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+      width: 120px;
+      height: 250px;
+      background-color: black;
+      clip-path: polygon(70% 0%, 100% 10%, 100% 30%, 85% 50%, 100% 65%, 85% 85%, 60% 100%, 0% 100%, 0% 0%);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="hair">
+      <!-- Círculos representando o cabelo afro -->
+      <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+      <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+      <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+      <div class="circle"></div><div class="circle"></div><div class="circle"></div>
+    </div>
+    <div class="face"></div>
+  </div>
+</body>
+</html>
